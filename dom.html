@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Historia</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div class="title-div">
+            <header>HTML Historia</header>
+        </div>
+        <div class="link-menu" id="link-menu">
+            <div class="list">
+                <ul>
+                    <li><a href="index.html">HTMLs Historia</a></li>
+                    <li><a href="index.html">Publiceringen av XForms</a></li>
+                    <li><a href="/dom.html">DOM</a></li>
+                    <li><a href="index.html#whatwg">WHATWG</a></li>
+                    <li><a href="index.html#html5">Utvecklingen av HTML5</a></li>
+                </ul>
+            </div>
+            <button id="arrow-button" onclick="slidemenu()">↓</button>
+        </div>
+    </nav>
+    <main>
+        <article class="dom-article">
+            <h1>DOM</h1>
+            <p>DOM står för Document Object Model och HTML DOM är en standardiserad modell där en webbsidas alla element representeras som objekt. Det tillåts att manipulera objekten (elementen) och nå dess egenskaper med hjälp av metoder och “events”. Webbläsaren skapar en modell när en sida laddas som kan representeras som ett träd av html-element. Roten av trädet, det element som ligger i grunden (eller toppen) är &#60;html&#62;. Trädet följer sedan strukturen vi definierat i html-sidan.</p>
+            <div class="center-img">
+                <img src="img/dom.png" alt="image representing dom">
+            </div>
+            <div class="center-img">
+                <img src="img/dom2.png" alt="image representing dom">
+            </div>
+        </article>
+    </main>
+</body>
+</html>
